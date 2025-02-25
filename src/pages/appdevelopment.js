@@ -5,9 +5,9 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/taaza1.jpg"
-import project2 from "../../public/images/projects/taaza2.jpg"
-import project3 from "../../public/images/projects/taaza3.png"
+import project1 from "/images/projects/taaza1.jpg"
+import project2 from "/images/projects/taaza2.jpg"
+import project3 from "/../public/images/projects/taaza3.png"
 import project4 from "../../public/images/projects/taaza4.jpg"
 import project5 from "../../public/images/projects/taaza5.jpg"
 import project6 from "../../public/images/projects/taaza6.jpg"
@@ -80,7 +80,7 @@ const projects = () => {
                     <div className="col-span-12">
     <FeaturedProject 
            title="IZB App"
-           img={project4}
+           img="/public/images/projects/taaza4.jpg"
            summary="The IZB App is a secure and user-friendly mobile banking platform by Indo Zambia Bank. It allows customers to manage their accounts, transfer funds, pay bills, and access a range of banking services conveniently from their smartphones."
            link="/appdevelopemnt"
           
@@ -92,7 +92,7 @@ const projects = () => {
     <Project 
        
         title="NotFunny App"
-        img={project5}
+        img="../public/images/projects/taaza5.jpg"
         summary="NotFunny App is a unique entertainment platform that brings hilarious and engaging content to users worldwide. From funny videos to viral memes, it ensures endless laughter and enjoyment anytime, anywhere."
        link="/appdevelopemnt"
         type="Featured Project"
@@ -103,7 +103,7 @@ const projects = () => {
     <Project 
   
         title="First Alliance Bank"
-        img={project6}
+        img="../../public/images/projects/taaza6.jpg"
         summary="First Alliance Bank Zambia Limited (FABZL) is a trusted commercial bank offering a range of financial services, including loans, savings, and online banking. With a focus on corporate clients and digital banking solutions, FABZL ensures secure and convenient financial transactions."
          link="/appdevelopemnt"
         type="Featured Project"
@@ -112,7 +112,7 @@ const projects = () => {
                     <div className="col-span-12">
     <FeaturedProject 
         title="Taaza Food"
-        img={project1}
+        img="/images/projects/taaza1.jpg"
         summary="Taaza Food is a trusted service delivering fresh, hygienic, and quality food items directly to customers' doorsteps in Vadodara City. With a user-friendly mobile app, customers can easily place orders in a simple three-step process, ensuring convenience, timely delivery, and reasonable pricing."
             link="/appdevelopemnt"
         type="Featured Project"
