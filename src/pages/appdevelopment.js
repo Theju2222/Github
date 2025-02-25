@@ -6,7 +6,7 @@ import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/taaza1.jpg"
-import project2 from "/public/images/projects/taaza2.jpg"
+import project2 from "../../public/images/projects/taaza2.jpg"
 import project3 from "../../public/images/projects/taaza3.png"
 import project4 from "../../public/images/projects/taaza4.jpg"
 import project5 from "../../public/images/projects/taaza5.jpg"
