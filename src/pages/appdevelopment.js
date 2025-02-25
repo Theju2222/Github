@@ -80,7 +80,7 @@ const projects = () => {
                     <div className="col-span-12">
     <FeaturedProject 
            title="IZB App"
-           img="/public/images/projects/taaza4.jpg"
+           img="/images/projects/taaza1.jpg"
            summary="The IZB App is a secure and user-friendly mobile banking platform by Indo Zambia Bank. It allows customers to manage their accounts, transfer funds, pay bills, and access a range of banking services conveniently from their smartphones."
            link="/appdevelopemnt"
           
@@ -92,7 +92,7 @@ const projects = () => {
     <Project 
        
         title="NotFunny App"
-        img="../public/images/projects/taaza5.jpg"
+        img="/images/projects/taaza1.jpg"
         summary="NotFunny App is a unique entertainment platform that brings hilarious and engaging content to users worldwide. From funny videos to viral memes, it ensures endless laughter and enjoyment anytime, anywhere."
        link="/appdevelopemnt"
         type="Featured Project"
@@ -103,7 +103,7 @@ const projects = () => {
     <Project 
   
         title="First Alliance Bank"
-        img="../../public/images/projects/taaza6.jpg"
+      img="/images/projects/taaza1.jpg"
         summary="First Alliance Bank Zambia Limited (FABZL) is a trusted commercial bank offering a range of financial services, including loans, savings, and online banking. With a focus on corporate clients and digital banking solutions, FABZL ensures secure and convenient financial transactions."
          link="/appdevelopemnt"
         type="Featured Project"
