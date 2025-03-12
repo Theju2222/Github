@@ -40,7 +40,7 @@ const Experience = () => {
                     <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]" />
                     <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
     <Details 
-                       position="Full Stack Web Developer"
+                       position="Senior Full Stack Web Developer"
                        company="CheapToGo"                  
                        companyLink="https://cheaptogo.net/"
                        time="2024 Nov - Present"
@@ -48,7 +48,7 @@ const Experience = () => {
                        work="As a Senior Full Stack Web Developer at CheapToGo, I played a key role in designing, developing, and maintaining the company’s web platforms, ensuring seamless user experiences for travel booking and related services. My responsibilities included building responsive and user-friendly interfaces using React.js, developing and optimizing APIs with Node.js for third-party integrations, and designing databases using MongoDB to enhance efficiency and security. I focused on performance optimization, improving website speed, security, and scalability through best practices and modern technologies. Additionally, I collaborated closely with UX/UI designers, project managers, and stakeholders to align development with business goals while managing cloud infrastructure on Azure, automating deployments with CI/CD pipelines. During my tenure, I contributed significantly to improving website performance, enhancing security, and introducing innovative features that streamlined the booking process, ultimately increasing user engagement and customer satisfaction."
                        />
                        <Details 
-                       position="Full Stack Web Developer"
+                       position="Senior Full Stack Web Developer"
                        company="Techrowth Pvt Ltd"                  
                        companyLink="https://techrowth.com/"
                        time="2023 Feb - 2024 Nov"
