@@ -39,11 +39,19 @@ const Experience = () => {
 
                     <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]" />
                     <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+    <Details 
+                       position="Full Stack Web Developer"
+                       company="CheapToGo"                  
+                       companyLink="https://cheaptogo.net/"
+                       time="2024 Nov - Present"
+                       address=""
+                       work="As a Senior Full Stack Web Developer at CheapToGo, I played a key role in designing, developing, and maintaining the company’s web platforms, ensuring seamless user experiences for travel booking and related services. My responsibilities included building responsive and user-friendly interfaces using React.js, developing and optimizing APIs with Node.js for third-party integrations, and designing databases using MongoDB to enhance efficiency and security. I focused on performance optimization, improving website speed, security, and scalability through best practices and modern technologies. Additionally, I collaborated closely with UX/UI designers, project managers, and stakeholders to align development with business goals while managing cloud infrastructure on Azure, automating deployments with CI/CD pipelines. During my tenure, I contributed significantly to improving website performance, enhancing security, and introducing innovative features that streamlined the booking process, ultimately increasing user engagement and customer satisfaction."
+                       />
                        <Details 
                        position="Full Stack Web Developer"
                        company="Techrowth Pvt Ltd"                  
                        companyLink="https://techrowth.com/"
-                       time="2023 Mar - Present"
+                       time="2023 Feb - 2024 Nov"
                        address="No.373, 2nd floor, 2nd Phase, West of Chord Road, Stage 2, Rajajinagar, Bengaluru, Karnataka 560086"
                        work="I have experience developing a comprehensive e-commerce website using HTML, CSS, JavaScript, and React, where I successfully integrated features like product listings, user authentication, and secure payment processing. Additionally, I collaborated on a team project to create a blogging platform using Node.js and Express, effectively implementing user account management, blog post creation, and comment functionality."
                        />
