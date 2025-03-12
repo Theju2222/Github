@@ -90,10 +90,9 @@ const projects = () => {
 
 <div className="col-span-6 sm:col-span-12">
     <Project 
-       
-        title="NotFunny App"
-        img={project5}
-        summary="NotFunny App is a unique entertainment platform that brings hilarious and engaging content to users worldwide. From funny videos to viral memes, it ensures endless laughter and enjoyment anytime, anywhere."
+        title="TaZa Delivery App"
+        img={project3}
+        summary="The TaZa Delivery App is designed for convenient and reliable water delivery. Customers can place orders effortlessly and track their deliveries in real-time, ensuring fresh and timely water supply at their doorstep."
        link="/appdevelopemnt"
         type="Featured Project"
     /> 
@@ -119,25 +118,7 @@ const projects = () => {
     />
 </div>
 
-<div className="col-span-6 sm:col-span-12">
-    <Project 
-        title="Taaza Indian Cuisine"
-        img={project2}
-        summary="Taaza Indian Cuisine app allows customers to easily browse the menu, customize orders, and securely process payments. Designed for a seamless restaurant ordering experience, it brings authentic Indian flavors straight to your doorstep with just a few taps."
-        link="/appdevelopemnt"
-        type="Featured Project"
-    /> 
-</div>
 
-<div className="col-span-6 sm:col-span-12">
-    <Project 
-        title="TaZa Delivery App"
-        img={project3}
-        summary="The TaZa Delivery App is designed for convenient and reliable water delivery. Customers can place orders effortlessly and track their deliveries in real-time, ensuring fresh and timely water supply at their doorstep."
-       link="/appdevelopemnt"
-        type="Featured Project"
-    /> 
-</div>
 
                     </div>
                 </Layout>
